@@ -100,7 +100,7 @@ ImageView settings;
         int result = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
 
         //If permission is granted returning true
-        if (result == PackageManager.PERMISSION_GRANTED)
+        if (result == PackageManager.PERMISSION_GRANTED) 
             return true;
 
         //If permission is not granted returning false
